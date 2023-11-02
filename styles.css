@@ -522,13 +522,13 @@ body{
         margin: 50px 10px ;
       }
       .log-in input{
-          width: 50%;
+          width: 70%;
       }
       .log-in .btn{
-          width: 50% !important;
+          width: 70% !important;
       }
       .log-in #check{
-        margin-left: 28%;
+        margin-left: 18%;
     }
     
 }
