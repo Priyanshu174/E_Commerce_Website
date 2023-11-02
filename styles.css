@@ -518,6 +518,9 @@ body{
     .log-in label{
         width: 25%;
       }
+    .log-in{
+        margin: 50px 10px ;
+      }
       .log-in input{
           width: 50%;
       }
