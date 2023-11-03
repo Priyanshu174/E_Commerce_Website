@@ -481,10 +481,15 @@ body{
 @media only screen and (max-width:980px){
     .product-description .product-top{
         height: 350px !important;
-        width: 300px !important;
-        margin-left: 100px;
+        width: 90%;
+         margin-left: 10px auto;
     
     }
+    .product-description .product-bottom{
+        width: 90%;
+         margin-left: 10px auto;
+    }
+
 }
 /* ------------------------------------------ */
 .log-in{
@@ -518,8 +523,8 @@ body{
     .log-in label{
         width: 25%;
       }
-    .log-in{
-        margin: 50px 10px ;
+      .log-in{
+        margin:50px 10px ;
       }
       .log-in input{
           width: 70%;
@@ -598,4 +603,27 @@ margin-bottom: 20px;
 .my-cart .btn-primary{
     width: 80%;
     margin-left: 30px;
+}
+@media only screen and (max-width:980px){
+    .my-cart .sub-head div{
+        width: 25%;
+        margin-right: 15px;
+    }
+    .my-cart .container .row div{
+       width: 20%;  
+    }
+    .my-cart img{
+        width: 70%;
+    }
+    .my-cart .sub-head{
+        padding-left: 80px;
+    }
+    
+    .my-cart .col-md-6{
+        width: 50%;
+    }
+    h3{
+        text-align: center;
+    }
+    
 }
