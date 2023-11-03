@@ -607,16 +607,27 @@ margin-bottom: 20px;
 @media only screen and (max-width:980px){
     .my-cart .sub-head div{
         width: 25%;
-        margin-right: 15px;
+        /* margin-right: 15px; */
+        margin-right: 5px;
+        padding-left: 50px;
+        
     }
     .my-cart .container .row div{
        width: 20%;  
     }
     .my-cart img{
-        width: 70%;
+        width: 100%;
+    }
+    .my-cart .col-md-2{
+        margin-top: 10px;
+
+    }
+    .my-cart .btn-danger{
+        width: 50px;
+        font-size: 0.5rem;
     }
     .my-cart .sub-head{
-        padding-left: 80px;
+        padding-left: 0;
     }
     
     .my-cart .col-md-6{
